@@ -1,0 +1,104 @@
+
+body{
+    background-color: #0A0A23;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input[type=text]{
+    background-color: black;
+    margin-left: -60px;
+    width:400px;
+    color:white;
+}
+
+
+
+label{
+    margin-left:-300px;
+}
+
+input[type=radio]
+{
+    margin-left: -60px;
+}
+
+input[type=file]
+{
+    background-color: black;
+    margin-left: -270px;
+    width:200px;}
+
+
+input[type=number]
+{
+    background-color: black;
+    margin-left: -260px;
+    width:200px;
+    color:white;
+}
+
+select{
+    background-color: white;
+    margin-left: 150px;
+    width:600px;
+    color:black;
+}
+
+select option{
+    width:200px;
+    margin-left: -200px;
+}
+
+label[for="info"]
+{
+    margin-left:-270px;
+}
+
+label[for="feedback"]
+{
+    width:400px;
+        margin-left:-350px;
+     
+}
+
+textarea{
+    background-color: black;
+    width:600px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+label[for="terms"]
+{
+    color:white;
+}
+a{
+    color:white;
+}
+
+
+.bt
+{
+   background-color: #393942;
+   width:200px;
+   color:white;
+   border: 1px solid white;
+   height: 20px;
+}
+
+.d1,.d2{
+    border-bottom: 2px solid gray;
+    justify-content: left;
+    align-items: left;
+}
+
+input[type=text]:hover,textarea:hover{
+    border: 1px solid white;
+}
+
+
+
+
+

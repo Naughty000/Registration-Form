@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<link rel="stylesheet" href="file.css">
+<body>
+    
+    <div class="container">
+        <h1>Registration Form</h1>
+        <br>
+        
+        <p>Please fill out this form with the required information</p>
+        <br><br>
+        <form >
+        <div class="d1">
+        <label for="name">Enter Your First Name:</label> 
+        <br><br>
+        <input type="text">
+        <br><br>
+        
+        <label for="last"> Enter Your Last Name:</label>
+        <br><br>
+        <input type="text">
+        <br><br>
+        <label for="email"> Enter Your Email:</label>
+        <br><br>
+        <input type="email">
+        <br><br>
+        <label for="password">Create a New Password:</label>
+        <br><br>
+        <input type="password">
+        <br><br>
+        </div>
+        <div class="d2">
+        <label for="account">Account type(required)</label>
+            <br><br><br>
+            
+            <label for="personal"><input type="radio" checked> Personal</label>
+            
+            <br>
+        
+            <label for="bus"><input type="radio" >Business</label>
+            
+            <br><br>
+       </div>
+        <br><br>
+        <label for="file1">Upload a profile picture:</label>
+        <br><br>
+        <input type="file" id="file-upload" name="uploadedFile" accept="image/png, image/jpeg">
+        <br><br>
+        <label for="age">Input your age(years):</label>
+        <br>
+        <input type="number" min="13" max="25" step="1" value="13">
+        <br><br>
+        <label for="info">How did you hear about us?</label>
+        <br><br>
+        <select name="(select one) " id="select one">
+            <option value="select one">(select one)</option>
+            <option value="FreeCodeCamp Youtube Channel">FreeCodeCamp Youtube Channel</option>
+            <option value="FreeCodeCamp Forum">FreeCodeCamp Forum</option>
+            <option value="others">others</option>
+        </select> 
+        <br><br>
+        <label for="feedback">Provide a bio: </label>
+        <br>
+        <textarea name="feedback" placeholder="I like coding on the beach..." row="3">
+        </textarea>
+        <br><br><br><br>
+        <label for="terms"><input type="checkbox">
+            I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target="_blank">terms and conditions</a>
+        </label>
+        <br><br>
+        
+        <input type="submit" class="bt">
+        
+
+         
+</form>
+    </div>
+</body>
+</html>
